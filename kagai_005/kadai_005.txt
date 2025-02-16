@@ -1,0 +1,17 @@
+PS C:\Users\asuka\OneDrive\Desktop\AAA> cd .\samurai-terakoya\
+PS C:\Users\asuka\OneDrive\Desktop\AAA\samurai-terakoya> cd .\git_challenge\
+PS C:\Users\asuka\OneDrive\Desktop\AAA\samurai-terakoya\git_challenge> git init
+Initialized empty Git repository in C:/Users/asuka/OneDrive/Desktop/AAA/samurai-terakoya/git_challenge/.git/
+PS C:\Users\asuka\OneDrive\Desktop\AAA\samurai-terakoya\git_challenge> git add .\hello_world.txt
+PS C:\Users\asuka\OneDrive\Desktop\AAA\samurai-terakoya\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) c48691d] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\asuka\OneDrive\Desktop\AAA\samurai-terakoya\git_challenge> git add .\hello_world.txt
+PS C:\Users\asuka\OneDrive\Desktop\AAA\samurai-terakoya\git_challenge> git commit -m "日本語訳を追記"
+[main bd9fc26] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+PS C:\Users\asuka\OneDrive\Desktop\AAA\samurai-terakoya\git_challenge> git log --oneline
+bd9fc26 (HEAD -> main) 日本語訳を追記
+c48691d hello_world.txtを追加
+PS C:\Users\asuka\OneDrive\Desktop\AAA\samurai-terakoya\git_challenge>
